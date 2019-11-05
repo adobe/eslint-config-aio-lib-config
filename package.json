@@ -1,0 +1,34 @@
+{
+  "name": "@adobe/eslint-config-aio-lib-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config for AIO libs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adobe/eslint-config-aio-lib.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "adobe-io",
+    "aio"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "author": "Adobe Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/adobe/eslint-config-aio-lib/issues"
+  },
+  "homepage": "https://github.com/adobe/eslint-config-aio-lib#readme"
+}

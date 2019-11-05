@@ -18,7 +18,7 @@ Shareable ESLint config for AIO libs
 To install, use `npm 5` or greater:
 
 ```bash
-npm install --save-dev @adobe/eslint-config-aio-lib
+npm install --save-dev @adobe/eslint-config-aio-lib-config
 npx install-peerdeps --dev @adobe/eslint-config-aio-lib-config
 ```
 

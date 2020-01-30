@@ -12,6 +12,8 @@ governing permissions and limitations under the License.
 
 # eslint-config-aio-lib-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adobe/eslint-config-aio-lib-config.svg)](https://greenkeeper.io/)
+
 Shareable ESLint config for AIO libs
 
 

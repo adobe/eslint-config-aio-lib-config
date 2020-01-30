@@ -9,4 +9,10 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-module.exports = require('./eslintrc.json')
+const index = require('../index')
+
+test('exports', () => {
+  expect(Array.isArray(index.plugins)).toBe(true)
+  expect(Array.isArray(index.extends)).toBe(true)
+  expect(typeof index.parserOptions).toEqual('object')
+})

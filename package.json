@@ -4,7 +4,8 @@
   "description": "Shareable ESLint config for AIO libs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests\""
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "npm run lint && jest"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,17 @@
     "adobe-io",
     "aio"
   ],
+  "devDependencies": {
+    "eslint": ">= 6",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-jsdoc": "^21.0.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^25.1.0"
+  },
   "peerDependencies": {
     "eslint": ">= 6",
     "eslint-config-standard": "^14.1.0",
@@ -23,7 +35,8 @@
     "eslint-plugin-jest": "^23.0.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-jsdoc": "^21.0.0"
   },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",

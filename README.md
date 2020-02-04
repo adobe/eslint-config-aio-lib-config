@@ -24,7 +24,7 @@ npm install --save-dev @adobe/eslint-config-aio-lib-config
 npx install-peerdeps --dev @adobe/eslint-config-aio-lib-config
 ```
 
-Then add this to your `.eslintrc`:
+Then add this to your `.eslintrc.json`:
 ```javascript
 {
   "extends": "@adobe/eslint-config-aio-lib-config"

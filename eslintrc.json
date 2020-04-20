@@ -1,6 +1,6 @@
 {
   "plugins": ["jest"],
-  "extends": ["standard", "plugin:jest/recommended", "plugin:jsdoc/recommended"],
+  "extends": ["standard", "plugin:jest/recommended", "plugin:jsdoc/recommended", "plugin:node/recommended"],
   "parserOptions": {
     "ecmaVersion": 2018
   }  

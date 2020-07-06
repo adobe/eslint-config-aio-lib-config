@@ -3,5 +3,10 @@
   "extends": ["standard", "plugin:jest/recommended", "plugin:jsdoc/recommended", "plugin:node/recommended"],
   "parserOptions": {
     "ecmaVersion": 2018
-  }  
+  },
+  "settings": {
+    "jsdoc": {
+      "ignorePrivate": true
+    }
+  }    
 }

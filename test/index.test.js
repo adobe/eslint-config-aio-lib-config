@@ -15,4 +15,6 @@ test('exports', () => {
   expect(Array.isArray(index.plugins)).toBe(true)
   expect(Array.isArray(index.extends)).toBe(true)
   expect(typeof index.parserOptions).toEqual('object')
+  expect(typeof index.settings).toEqual('object')
+  expect(typeof index.settings.jsdoc).toEqual('object')
 })

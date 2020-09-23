@@ -12,10 +12,9 @@ governing permissions and limitations under the License.
 
 # eslint-config-aio-lib-config
 
-
-
 Shareable ESLint config for AIO libs
 
+## Installation
 
 To install, use `npm 5` or greater:
 
@@ -24,9 +23,26 @@ npm install --save-dev @adobe/eslint-config-aio-lib-config
 npx install-peerdeps --dev @adobe/eslint-config-aio-lib-config
 ```
 
-Then add this to your `.eslintrc.json`:
+## Add to the root `.eslintrc.json` file
+
+Add this to your `.eslintrc.json` file in the root of your module:
 ```javascript
 {
   "extends": "@adobe/eslint-config-aio-lib-config"
 }
 ```
+
+## Exclude test/e2e folders from the `node/no-unpublished-require` rule
+
+The `node/no-unpublished-require` prevents using a module when it hasn't been added in the `dependencies` key in `package.json`.
+This setting excludes this rule for test folders, where the module may have been added in the `devDependencies` key in `package.json` only.
+
+Add this setting to a `.eslintrc.json` file in the affected folder:
+```
+{
+    "rules": {
+        "node/no-unpublished-require": 0
+    }
+}
+``
+

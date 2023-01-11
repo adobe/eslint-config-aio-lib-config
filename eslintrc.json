@@ -2,7 +2,7 @@
   "plugins": ["jest"],
   "extends": ["standard", "plugin:jest/recommended", "plugin:jsdoc/recommended", "plugin:node/recommended"],
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": 2020
   },
   "settings": {
     "jsdoc": {

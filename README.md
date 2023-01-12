@@ -34,7 +34,7 @@ Add this to your `.eslintrc.json` file in the root of your module:
 
 ## Exclude test/e2e folders from the `node/no-unpublished-require` rule
 
-The `node/no-unpublished-require` prevents using a module when it hasn't been added in the `dependencies` key in `package.json`.
+The [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-unpublished-require.md) rule prevents using a module when it hasn't been added in the `dependencies` key in `package.json`.
 This setting excludes this rule for test folders, where the module may have been added in the `devDependencies` key in `package.json` only.
 
 Add this setting to a `.eslintrc.json` file in the affected folder:

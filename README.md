@@ -26,7 +26,8 @@ npx install-peerdeps --dev @adobe/eslint-config-aio-lib-config
 ## Add to the root `.eslintrc.json` file
 
 Add this to your `.eslintrc.json` file in the root of your module:
-```javascript
+
+```json
 {
   "extends": "@adobe/eslint-config-aio-lib-config"
 }
@@ -38,11 +39,12 @@ The [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-no
 This setting excludes this rule for test folders, where the module may have been added in the `devDependencies` key in `package.json` only.
 
 Add this setting to a `.eslintrc.json` file in the affected folder:
-```
+
+```json
 {
     "rules": {
         "node/no-unpublished-require": 0
     }
 }
-``
+```
 

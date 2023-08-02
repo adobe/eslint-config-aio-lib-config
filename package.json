@@ -22,7 +22,7 @@
     "eslint-config-standard": "^17",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^27",
-    "eslint-plugin-jsdoc": "^45",
+    "eslint-plugin-jsdoc": "^44",
     "eslint-plugin-n": "^16",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
@@ -37,7 +37,7 @@
     "eslint-plugin-n": "^16",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
-    "eslint-plugin-jsdoc": "^45",
+    "eslint-plugin-jsdoc": "^44",
     "typescript": ">=2.8.2"
   },
   "author": "Adobe Inc.",

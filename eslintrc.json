@@ -1,6 +1,13 @@
 {
-  "plugins": ["jest"],
-  "extends": ["standard", "plugin:jest/recommended", "plugin:jsdoc/recommended", "plugin:node/recommended"],
+  "plugins": [
+    "jest"
+  ],
+  "extends": [
+    "standard",
+    "plugin:jest/recommended",
+    "plugin:jsdoc/recommended",
+    "plugin:node/recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 2020
   },
@@ -8,5 +15,14 @@
     "jsdoc": {
       "ignorePrivate": true
     }
-  }    
+  },
+  "rules": {
+    "jsdoc/tag-lines": [
+      "error",
+      "never",
+      {
+        "startLines": null
+      }
+    ]
+  }
 }

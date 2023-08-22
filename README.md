@@ -14,6 +14,10 @@ governing permissions and limitations under the License.
 
 Shareable ESLint config for AIO libs
 
+## Publishing (!!!!)
+
+Any update to a dependency/peer dependency *must* be a major version update, if not a lot of tests will break during `npm install` because of a version mismatch. Use of semver is warranted here so users can choose when to update their config instead of it being forced on them. The 2.x update broke a lot of tests.
+
 ## Installation
 
 To install, use `npm 5` or greater:

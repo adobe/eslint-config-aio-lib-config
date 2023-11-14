@@ -40,6 +40,9 @@
     "eslint-plugin-jsdoc": "^42",
     "typescript": ">=2.8.2"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",
   "bugs": {

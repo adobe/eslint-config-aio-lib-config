@@ -26,8 +26,7 @@
     "eslint-plugin-n": "^15.7",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
-    "jest": "^29",
-    "typescript": ">=2.8.2"
+    "jest": "^29"
   },
   "peerDependencies": {
     "eslint": "^8",
@@ -37,8 +36,7 @@
     "eslint-plugin-n": "^15.7",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
-    "eslint-plugin-jsdoc": "^42",
-    "typescript": ">=2.8.2"
+    "eslint-plugin-jsdoc": "^42"
   },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",

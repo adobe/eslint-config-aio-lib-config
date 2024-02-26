@@ -1,6 +1,6 @@
 {
   "name": "@adobe/eslint-config-aio-lib-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Shareable ESLint config for AIO libs",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "eslint-config-standard": "^17",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^27",
-    "eslint-plugin-jsdoc": "^42",
+    "eslint-plugin-jsdoc": "^48",
     "eslint-plugin-n": "^15.7",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
@@ -36,7 +36,7 @@
     "eslint-plugin-n": "^15.7",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
-    "eslint-plugin-jsdoc": "^42"
+    "eslint-plugin-jsdoc": "^48"
   },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",

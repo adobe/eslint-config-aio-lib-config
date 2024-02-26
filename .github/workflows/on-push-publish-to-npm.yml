@@ -7,6 +7,7 @@ on:
       - 'package.json'
 jobs:
   publish:
+    if: github.repository == 'adobe/eslint-config-aio-lib-config'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

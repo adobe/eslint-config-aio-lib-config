@@ -1,6 +1,6 @@
 {
   "name": "@adobe/eslint-config-aio-lib-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Shareable ESLint config for AIO libs",
   "main": "index.js",
   "scripts": {

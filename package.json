@@ -22,7 +22,7 @@
     "eslint-config-standard": "^17",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^28",
-    "eslint-plugin-jsdoc": "^48",
+    "eslint-plugin-jsdoc": "^60",
     "eslint-plugin-n": "^15.7",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
@@ -36,7 +36,7 @@
     "eslint-plugin-n": "^15.7",
     "eslint-plugin-node": "^11",
     "eslint-plugin-promise": "^6",
-    "eslint-plugin-jsdoc": "^48"
+    "eslint-plugin-jsdoc": "^60"
   },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",

@@ -9,20 +9,4 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-const neostandard = require('neostandard')
-const jsdoc = require('eslint-plugin-jsdoc')
-
-module.exports = [
-  ...neostandard(),
-  jsdoc.configs['flat/recommended'],
-  {
-    settings: {
-      jsdoc: {
-        ignorePrivate: true
-      }
-    },
-    rules: {
-      'jsdoc/tag-lines': ['error', 'never', { startLines: null }]
-    }
-  }
-]
+module.exports = require('./index.js')

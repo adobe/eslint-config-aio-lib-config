@@ -9,12 +9,20 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-const index = require('../index')
+const { test } = require('node:test')
+const assert = require('node:assert/strict')
+const config = require('../index')
 
-test('exports', () => {
-  expect(Array.isArray(index.plugins)).toBe(true)
-  expect(Array.isArray(index.extends)).toBe(true)
-  expect(typeof index.parserOptions).toEqual('object')
-  expect(typeof index.settings).toEqual('object')
-  expect(typeof index.settings.jsdoc).toEqual('object')
+test('exports a flat config array', () => {
+  assert.ok(Array.isArray(config))
+  assert.ok(config.length > 0)
+  for (const entry of config) {
+    assert.strictEqual(typeof entry, 'object')
+  }
+})
+
+test('includes jsdoc settings', () => {
+  const jsdocConfig = config.find(c => c.settings?.jsdoc)
+  assert.ok(jsdocConfig, 'jsdoc config entry not found')
+  assert.strictEqual(jsdocConfig.settings.jsdoc.ignorePrivate, true)
 })

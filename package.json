@@ -4,7 +4,7 @@
   "description": "Shareable ESLint config for AIO libs",
   "main": "index.js",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "lint": "eslint .",

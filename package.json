@@ -22,12 +22,12 @@
   ],
   "devDependencies": {
     "eslint": "^9",
-    "eslint-plugin-jsdoc": "^48",
+    "eslint-plugin-jsdoc": "^62",
     "neostandard": "^0"
   },
   "peerDependencies": {
     "eslint": "^9",
-    "eslint-plugin-jsdoc": "^48",
+    "eslint-plugin-jsdoc": "^62",
     "neostandard": "^0"
   },
   "author": "Adobe Inc.",
